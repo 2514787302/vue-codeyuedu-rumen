@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 锁定屏幕缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui"> 
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait"/>
+    <!-- 删除默认的苹果工具栏和菜单栏。 如果content设置为yes，Web应用会以全屏模式运行 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 不希望手机自动将网页中的电话号码显示为拨号的超链接 -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <title>vue2-happyfri</title>
+  </head>
+  <body>
+    <!-- //最外层的容器 -->
+    <div id="app">  
+      <!-- //路由跳转必须要有这个标签  不然是会出现 只有url跳转 页面跳转的情况 -->
+    	<router-view></router-view> 
+    </div>
+  </body>
+</html>
